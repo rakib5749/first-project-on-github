@@ -1,0 +1,26 @@
+ /* Header-Part */
+ 
+ @media (max-width: 425px) {
+     .header__search {
+         display: none;
+     }
+     .header__icons .icons {
+         display: none;
+     }
+     .header__icons .display-this {
+         display: inline;
+         cursor: pointer;
+     }
+     .sidebar {
+         display: none;
+     }
+ }
+ 
+ @media (max-width: 768px) {
+     .header__search {
+         display: none;
+     }
+     .sidebar {
+         display: none;
+     }
+ }
